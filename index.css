@@ -1,0 +1,303 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, p, ul, li,dd ,dt{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+	line-height: 1.4em;
+	letter-spacing: 0.2em;
+	color: #363636;
+	font-size: 94%;
+}
+img {
+	border: none;
+	vertical-align: bottom;
+}
+a{
+	color: #1D194D;
+}
+
+a:hover{
+	color:#C0CBE1;
+	background-color: #262F40;
+}
+
+header {
+	background-image: url("img/header_.png");
+	width: 100%;
+	height: 0;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 40%;
+}
+.header_title {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.header_title__in {
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	top: -50%;
+	width: 40%;
+	text-align: center;
+}
+.halant  {
+	font-size: 28px;
+	letter-spacing: 0.5em;
+	font-family: 'Halant', serif;
+	text-shadow:0 0 10px #FFF;
+}
+.header_title__in p {
+	font-size: 16px;
+	letter-spacing: 0.5em;
+	margin-top: 20px;
+	text-shadow: 0px 0px 3px;
+}
+.header_title__in .halant {
+	font-family: 'Halant', serif;
+	text-shadow:0 0 10px #FFF;
+}
+nav  {
+	width: 360px;
+	margin: 50px auto 0 auto;
+	clear: both;
+	position: relative;
+}
+nav li {
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 0px;
+	text-align: center;
+}
+section {
+	clear: both;
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+h2 {
+	font-size: 130%;
+	font-weight: normal;
+	letter-spacing: 0.5em;
+	margin-bottom: 50px;
+}
+h3 {
+	margin-top: 70px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+h4{
+	margin: 10px 0 
+}
+.profile_top {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.profile_img {
+	float: left;
+	margin-right: 5%;
+	height: auto;
+	max-width: 50%;
+}
+.profile_img img{
+	max-width: 100%;
+	height: auto;	
+}
+.profile_text {
+	float: right;
+	width: 45%;
+	text-align: left;
+}
+.profile_text p {
+	margin-top: 10px;
+}
+.profile_box {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	margin-top: 30px;
+	height: auto;
+	overflow: hidden;
+	padding-top: 30px;
+}
+
+.profile_box dd{
+	margin-bottom: 30px;
+}
+
+.barchart {
+	margin-top: 80px;
+}
+.graph{
+	width: 60%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+.bar{
+	max-width: 400px;
+	width: 100%;
+	margin: 1em 0;
+	color: white;
+	padding: 0.7em;
+	animation: bar-animation 1 2s;
+	background: #0091EA;
+	text-align: left;
+}
+
+.bar1{
+	max-width: 100%;
+	background-color: #EC7CC3;
+}
+.bar2{
+	max-width: 80%;
+	background-color: #E57BBC;
+}
+.bar3{
+	max-width: 50%;
+	background-color: #D176B4;
+}
+.bar4{
+	max-width: 80%;
+	background-color: #BE72AC;	
+}
+.bar5{
+	max-width: 80%;
+	background-color: #A16BA0;
+}
+.bar6{
+	max-width: 80%;
+	background-color: #816393;
+}
+.bar7{
+	max-width: 40%;
+	background-color: #6A5C8A;
+}
+.bar8{
+	max-width: 40%;
+	background-color: #4B557F;
+}
+.bar9{
+	max-width: 100%;
+	background-color: #325179;
+}
+.bar10{
+	max-width: 40%;
+	background-color: #1B4C71;
+}	
+
+.works {
+	width: 810px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.works_box {
+	float: left;
+	margin: 0 10px 20px 10px;
+	padding: 20px 10px;
+}
+.works .works_box p {
+	margin-bottom: 5px;
+}
+.works_box img{
+	max-width: 100%;
+	height: auto;
+}
+.flexbox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-auto-rows: 1fr;
+  margin-top: 30px;  
+}
+.flexbox > div {
+	background-color: rgba(81,8,135,0.26);
+	
+	overflow: auto;
+	border-radius: 10px;
+	min-width: 0;
+}
+footer {
+	text-align: center;
+	background-color: #262F40;
+	padding-bottom: 50px;
+}
+footer p {
+	margin-bottom: 100px;
+	margin-top: 100px;
+	padding-top: 50px;
+	color: #A5BAE2;
+}
+footer a {
+	color: #A5BAE2;
+}
+footer small {
+	padding-bottom: 20px;
+	color: #A5BAE2;
+}
+
+@keyframes bar-animation{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:690px){
+.header_title__in {
+	left: 20%;
+	right: 20%;
+	top: -23%;
+	width: 60%;
+}
+.header_title__in p {
+	font-size: 14px;
+	letter-spacing: 0.3em;
+}
+nav  {
+	width: 270px;
+}
+nav li {
+	width: 80px;
+	margin-right: 10px;
+}
+.profile_img {
+	float: none;
+	margin: 0 auto 20px;
+	height: auto;
+	max-width: 80%;
+}
+.profile_img img{
+	width: 100%;
+	height: auto;	
+}
+.profile_text {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+.profile_box {
+	width: 80%;
+}
+.graph{
+	width: 80%;
+}
+footer p{
+	font-size: 80%;
+	margin-bottom: 50px;
+}
+footer small{
+	font-size: 70%;	
+}
+}

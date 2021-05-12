@@ -1,0 +1,148 @@
+@charset "UTF-8";
+body, h1, h2, h3, p, ul, li, dd,dt {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+	line-height: 1.4em;
+	letter-spacing: 0.2em;
+	color: #363636;
+	font-size: 94%;
+	text-align: left;
+}
+img {
+	border: none;
+	vertical-align: bottom;
+}
+a{
+	color: #262F40;
+}
+
+a:hover{
+	color:#C0CBE1;
+	background-color: #262F40
+}
+
+header {
+	background-image: url(img/header_short.png);
+	width: 100%;
+	height: 0;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 13.3333%;
+}
+.header_title {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.header_title__in {
+	position: absolute;
+	left: 7%;
+	right: 30%;
+	top: -17%;
+	width: 40%;
+	text-align: left;
+}
+.halant  {
+	font-size: 28px;
+	letter-spacing: 0.5em;
+	font-family: 'Halant', serif;
+	text-shadow:0 0 10px #FFF;
+}
+.header_title__in p {
+	font-size: 16px;
+	letter-spacing: 0.5em;
+	margin-top: 20px;
+	text-shadow: 0px 0px 3px;
+}
+.header_title__in .halant {
+	font-family: 'Halant', serif;
+	text-shadow:0 0 10px #FFF;
+}
+nav  {
+	margin-top: 30px;
+	clear: both;
+	position: absolute;
+	transform: translateX(15%);
+	width: 70%;
+}
+.works_thumb img {
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: 150px auto 0 auto;
+	position: relative;
+	
+}
+section {
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2 {
+	font-size: 110%;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	
+}
+.demo{
+	text-align: center;
+	position: relative;
+}
+h3 {
+	width: 300px;
+	font-weight: bold;
+	font-size: 115%;
+	border-bottom-style: solid;
+	border-bottom-color: #BB3F55;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+footer {
+	text-align: center;
+	background-color: #262F40;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+footer p {
+	margin-bottom: 100px;
+	margin-top: 100px;
+	padding-top: 50px;
+	color: #A5BAE2;
+	text-align: center;
+}
+footer a {
+	color: #A5BAE2;
+}
+footer small {
+	padding-bottom: 20px;
+	color: #A5BAE2;
+}
+
+@media screen and (max-width:690px){
+.header_title__in {
+	top: -10%;
+	width: 80%;
+}
+.halant  {
+	font-size: 24px;
+}
+.header_title__in p {
+	font-size: 14px;
+	letter-spacing: 0.3em;
+	margin-top: 0px;
+}
+footer p{
+	font-size: 80%;
+	margin-bottom: 100px;
+}
+footer small{
+	font-size: 70%;	
+}
+}
